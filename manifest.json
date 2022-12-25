@@ -1,0 +1,43 @@
+{
+  "Actions": [
+    {
+      "Icon": "images/iconAction",
+      "Name": "Single Result",
+      "States": [
+        {
+          "Image": "images/iconPlugin",
+          "TitleAlignment": "bottom",
+          "FontSize": "16"
+        }
+      ], 
+      "SupportedInMultiActions": true,
+      "Tooltip": "Roll a polyhedral (multi-sided) dice.",
+      "UUID": "com.kaution.polyhedral.action.single"
+    }
+  ], 
+  "SDKVersion": 2,
+  "Author": "Shawn Squire",
+  "CodePath": "index.html", 
+  "PropertyInspectorPath": "pi/index.html",
+  "Description": "Roll multi-sided (polyhedral) dice, for use in tabletop games like Dungeons & Dragons.",
+  "Name": "Polyhedral",
+  "Category": "Polyhedral",
+  "CategoryIcon": "images/iconCategory",
+  "Icon": "images/iconPlugin",
+  "URL": "https://github.com/kautiontape/polyhedralSD",
+  "Version": "1.0.4",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+    }
+}
